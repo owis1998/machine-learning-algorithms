@@ -38,7 +38,6 @@ def gradient_descent(points, t0, t1, a):
 
 	return t0, t1
 
-
 def main():
 	points = genfromtxt('data_set.csv', delimiter = ',')
 	t0 = 0
