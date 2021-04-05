@@ -40,7 +40,7 @@ def gradient_descent(points, t, a):
 
 
 def main():
-	points = genfromtxt('data.csv', delimiter = ',')
+	points = genfromtxt('data_set.csv', delimiter = ',')
 	t = [0 for _ in range(0, points.shape[1])]
 	learning_rate = 0.0001
 
