@@ -15,7 +15,7 @@ def cost(points, t0, t1):
 	
 	return sumition / len(points)
 
-def cost_for_minmiz(points, t0, t1, flag = 1):
+def minmiz_cost(points, t0, t1, flag = 1):
 	sumition = 0
 
 	for i in range(0, len(points)):
