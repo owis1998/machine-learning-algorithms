@@ -32,7 +32,7 @@ def gradient_descent(points, t, a):
 	for j in range(0, 1000):
 		tmp = []
 		for i in range(0, len(t)):
-			k = t[i] - (a * cost_for_minize(points, t, i))
+			k = t[i] - (a * minmize_cost(points, t, i))
 			tmp.append(k)
 		t = tmp.copy()
 
