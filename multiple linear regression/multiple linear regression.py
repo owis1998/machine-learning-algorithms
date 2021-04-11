@@ -18,7 +18,7 @@ def cost(points, t):
 
 	return total / (2 * points.shape[0])
 
-def cost_for_minize(points, t, flag):
+def minmize_cost(points, t, flag):
 	total = 0
 	for i in range(0, points.shape[0]):
 		if flag:
