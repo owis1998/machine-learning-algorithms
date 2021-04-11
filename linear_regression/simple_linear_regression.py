@@ -31,8 +31,8 @@ def minmiz_cost(points, t0, t1, flag = 1):
 
 def gradient_descent(points, t0, t1, a):
 	for _ in range(0, 1000):
-		tmp0 = t0 - (a * cost_for_minmiz(points, t0, t1))
-		tmp1 = t1 - (a * cost_for_minmiz(points, t0, t1, 0))
+		tmp0 = t0 - (a * minmiz_cost(points, t0, t1))
+		tmp1 = t1 - (a * minmiz_cost(points, t0, t1, 0))
 
 		t0, t1 = tmp0, tmp1	
 
